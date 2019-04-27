@@ -1,0 +1,10 @@
+not_2_shelves:
+    lowap:
+        - antia
+        - b
+    upper:
+        - a
+        - b
+    lower:
+        - antia
+        - antib

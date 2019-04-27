@@ -1,0 +1,13 @@
+README.md
+setup.py
+alchemist/__init__.py
+alchemist/command.py
+alchemist/laboratory.py
+alchemist/tests/__init__.py
+alchemist/tests/test_laboratory.py
+alchemist_potion_master.egg-info/PKG-INFO
+alchemist_potion_master.egg-info/SOURCES.txt
+alchemist_potion_master.egg-info/dependency_links.txt
+alchemist_potion_master.egg-info/entry_points.txt
+alchemist_potion_master.egg-info/requires.txt
+alchemist_potion_master.egg-info/top_level.txt
