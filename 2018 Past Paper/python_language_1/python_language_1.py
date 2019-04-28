@@ -28,6 +28,7 @@ def plotYear(filename, year, colour="blue"):
         
     # generating x and y axis data
     y_axis = [float(val) for val in data[str(year)]]
+    # or y_axis = [data[str(year)]] ?
     x_axis = np.arange(1, len(y_axis)+1)
     
     # creating plot
