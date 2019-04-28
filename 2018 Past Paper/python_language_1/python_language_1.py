@@ -51,8 +51,9 @@ def plotMeanFall(filename, start_year, end_year):
     
     # generating y_axis data
     y_axis = np.zeros(x_axis.size)
-    for i in range(x_axis.size):
+    for i in range(x_axis.size): #in range of x_axis?
          year_fall = np.array([float(val) for val in data[str(x_axis[i])]])
+            #same as above?
          y_axis[i] = np.mean(year_fall)
          
     # creating plot
