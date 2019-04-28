@@ -56,6 +56,7 @@ if __name__ == "__main__":
     arguments = parser.parse_args()
     #nargs='?' allows to use a default value if no arguments are given and const gives the dafault
     #value and type make sure the input are integers
+    #need to add description!, add help part of the parser
     
     initial=julia(arguments.y_axis_limit, arguments.x_axis_limit, arguments.resolution)
     initial.plot_data()
